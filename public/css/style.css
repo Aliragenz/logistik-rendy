@@ -1,0 +1,114 @@
+/* styles.css */
+
+/* General body styles */
+body {
+    background-color: #f7f7f7;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+}
+/* Navbar styles */
+.navbar {
+    background-color: #2d3e50;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.navbar-nav .nav-link {
+    color: #f0f0f0 !important;
+    font-size: 1.1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #f5a623 !important;
+}
+
+/* Container and content styles */
+.container {
+    margin-top: 5px;
+}
+
+h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #2d3e50;
+    margin-bottom: 30px;
+}
+
+/* Footer styles */
+footer {
+    background-color: #2d3e50;
+    color: #f0f0f0;
+    padding: 15px 0;
+    text-align: center;
+}
+
+/* Card styles */
+.card {
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.card-header {
+    background-color: #f5a623;
+    color: #fff;
+    border-radius: 8px 8px 0 0;
+    font-weight: bold;
+}
+
+.card-body {
+    background-color: #fff;
+    padding: 20px;
+}
+
+
+
+.navbar {
+    background-color: #343a40;
+}
+
+.navbar-brand {
+    font-size: 24px;
+}
+
+button {
+    border-radius: 50px;
+}
+
+.table {
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.modal-content {
+    border-radius: 10px;
+}
+
+.modal-header {
+    background-color: #007bff;
+    color: white;
+}
+
+.modal-body {
+    background-color: #f1f3f5;
+}
+
+.modal-title {
+    font-size: 18px;
+}
+
+.modal-footer button {
+    border-radius: 50px;
+}
+
+.text-custom-hover {
+    cursor: default;
+}
